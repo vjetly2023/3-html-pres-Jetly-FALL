@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- title tag -->
+        <title>There is beauty in a moment by Mr. Messina</title>
+        <!-- character encoding -->
+        <meta charset="utf-8">
+        <!-- make viewport mobile-friendly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta description -->
+        <meta name="description" content="This is a poem by Mr. Messina as a demonstration for Web Design and Development I at Andover High School, Fall 2019.">
+        <!-- w3.css CDN link 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        <!-- local w3.css link -->
+        <link rel="stylesheet" type="text/css" href="css/w3.css">
+        <!-- animate.css -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style-005.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+        <!-- prefetch audio -->
+        <link rel="prefetch" href="img/cliffsides.mp3">
+
+    </head>
+
+    <body>
+        <figure class="w3-display-bottommiddle" style="z-index: 1000">
+            <figcaption>Play me:</figcaption>
+            <audio controls autoplay src="img/toys.jpg">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </figure>
+
+        <!-- SLIDE #1 -->
+        <section class="mySlides w3-black fullscreen-img-1">
+
+            <div class="w3-container w3-display-middle">
+                <h1 class="black-shadow animated fadeInDown slower">Whose toys is that? I think I know.</h1>
+            </div>
+
+        </section>
+
+        <!-- SLIDE #2 -->
+        <section class="mySlides">
+
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                <source src="img/toys.jpg" type="video/mp4">
+            </video>
+
+            <div class="w3-container w3-display-middle">
+                <h1 class="black-shadow-2 animated fadeInDown slower w3-text-white">Its owner is quite happy though.</h1>
+            </div>
+
+        </section>
+        
+        
+        <!-- SLIDE #3 -->
+        <section class="mySlides">
+            
+             <div class="w3-container w3-display-bottommiddle">
+                <h1>Full of joy like a vivid rainbow.</h1>
+            </div>
+            
+            
+            <div class="w3-row">
+                <div class="w3-half w3-orange">
+                    <h1>I watch her laugh. I cry hello.</h1>
+                
+                </div>
+                
+                <div class="w3-half w3-blue">
+                    <h1>She gives her toys a shake,</h1>
+                
+                </div>
+            
+            </div>
+            
+            <div class="w3-row">
+                <div class="w3-third w3-red">
+                    <h1>And laughs until her belly aches.</h1>
+                
+                </div>
+                
+                <div class="w3-third w3-white">
+                    <h1>The only other sound's the break,</h1>
+                
+                </div>
+                
+                <div class="w3-third w3-blue">
+                    <h1>Of distant waves and birds awake.</h1>
+                
+                </div>
+            
+            </div>
+        
+        </section>
+        
+        <!-- SLIDE 4 -->
+        <section class="mySlides">
+            
+            <div class="w3-cell-row" style="height: 100%;">
+                
+                <div class="w3-cell w3-container w3-red w3-mobile" style="height: 50%;">
+                    <h1>The toys is little, cute and deep,</h1>
+                </div>
+                
+                <div class="w3-cell w3-container w3-blue w3-mobile" style="height: 50%;">
+                    <h1>But she has promises to keep.</h1>
+                </div>
+                
+            </div>
+        
+        </section>
+
+
+        <!-- slideshow buttons (prev, next) -->
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+        <script src="js/slideshow.js"></script>
+
+    </body>
+
+</html>
